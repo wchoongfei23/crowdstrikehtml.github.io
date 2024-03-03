@@ -1,0 +1,30 @@
+
+.header img {
+  width: 98%; /* Stretch to the width of the container */
+  height: auto; /* Adjust height automatically */
+  display: block; /* Remove any default inline spacing */
+}
+
+body {
+  background-image: url("world\ map.png"); 
+  background-attachment:fixed;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+h2 {
+  color: red;
+  text-align: center;
+}
+
+p, ul {
+  color: red;
+  font-family: verdana;
+  font-size: 20px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
